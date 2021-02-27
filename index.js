@@ -8,7 +8,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/hello', async (req, res) => {
-    res.send({ hello: true, build: 1 });
+    res.send({ hello: true, build: 2 });
 });
 
 // eslint-disable-next-line no-console
